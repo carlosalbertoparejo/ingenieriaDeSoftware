@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="29.4.0">
+  <diagram name="Página-1" id="a-sYTa9GUegbFkn8x9Xm">
+    <mxGraphModel dx="582" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O6e4CDccJT6M11O2h7He-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Usu" vertex="1">
+          <mxGeometry height="210" width="100" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Biblioteca" vertex="1">
+          <mxGeometry height="210" width="100" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Libro" vertex="1">
+          <mxGeometry height="210" width="100" x="300" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Reserva" vertex="1">
+          <mxGeometry height="210" width="100" x="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-5" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="70" y="160" as="sourcePoint" />
+            <mxPoint x="210" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-6" connectable="0" parent="O6e4CDccJT6M11O2h7He-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Busca libro" vertex="1">
+          <mxGeometry relative="1" x="-0.1673" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-7" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="O6e4CDccJT6M11O2h7He-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="210" y="170" as="sourcePoint" />
+            <mxPoint x="370" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-8" connectable="0" parent="O6e4CDccJT6M11O2h7He-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Consulta dispon." vertex="1">
+          <mxGeometry relative="1" x="-0.1132" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-9" edge="1" parent="1" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="350" y="180" as="sourcePoint" />
+            <mxPoint x="489" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-10" connectable="0" parent="O6e4CDccJT6M11O2h7He-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Está dispo" vertex="1">
+          <mxGeometry relative="1" x="-0.2436" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-20" edge="1" parent="1" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="489.5" y="210" as="sourcePoint" />
+            <mxPoint x="349.75925925925924" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-24" connectable="0" parent="O6e4CDccJT6M11O2h7He-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Confirma dispo" vertex="1">
+          <mxGeometry relative="1" x="0.2778" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-22" edge="1" parent="1" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="349.74074074074076" y="230" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-25" connectable="0" parent="O6e4CDccJT6M11O2h7He-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="confirma reserva" vertex="1">
+          <mxGeometry relative="1" x="0.0692" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-23" edge="1" parent="1" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="209.74074074074076" y="260" as="sourcePoint" />
+            <mxPoint x="70" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6e4CDccJT6M11O2h7He-26" connectable="0" parent="O6e4CDccJT6M11O2h7He-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="presta libro" vertex="1">
+          <mxGeometry relative="1" x="0.1858" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
